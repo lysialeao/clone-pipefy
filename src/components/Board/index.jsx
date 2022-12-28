@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { Container } from './styles';
+import { Container } from './styles'
+import List from '../List'
 
 function Board() {
   return (
     <Container>
-
+        <List />
+        <List />
+        <List />
+        <List />
     </Container>
   )
 }
